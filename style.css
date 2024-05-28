@@ -1,0 +1,11 @@
+.home-image {
+    opacity: 0;
+    border: 5px solid #eeeeee;
+    position: absolute;
+    overflow: hidden;
+    right: 7%;
+    top: 10%;
+    width: 60%;
+    animation: fadeIn 3s ease forwards;
+    animation-delay: 3.5s;
+}
