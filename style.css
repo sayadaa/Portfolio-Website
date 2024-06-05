@@ -12,8 +12,52 @@
     position: relative;
 }*/
 
+
+
+/* nav bar stuff*/
+
+nav a {
+    transition: transform 0.2s, background-color 0.2s, color 0.2s;
+  }
+  
+  nav a:hover {
+    color: #6e35a2; /* Purple color on hover */
+    /*was 1.1*/
+    transform: scale(1.4); /* Scale up effect */
+  }
+  
+  nav a[aria-current="page"] {
+    /*background-color: #6e35a2; /* Purple background for active page */
+    /*color: #190B28; /* White text for active page */
+    font-weight: bold; /* Bold font for active page */
+
+    /*color: #88527F; /* White text for active page */
+    
+    /*color: #302F4D; /* White text for active page */
+
+    /*color: #54426B; /* White text for active page GOOD*/
+
+    color: #e6186a; /* White text for active page GOOD*/
+  }
+
+
+  /* footer bar stuff*/
+
+  #footer svg {
+    transition: transform 0.2s, color 0.2s;
+  }
+  
+  #footer svg:hover {
+    color: #6e35a2; /* Purple color on hover */
+    transform: scale(1.5); /* Scale up effect */
+  }
+
+
+
+
 #footer {
-    color: rgb(241, 210, 244);
+    color: rgb(100, 61, 136);
+    /*color: rgb(241, 210, 244);*/
     font-size: 20px !important;
     text-align: center;
     padding: 8px;
