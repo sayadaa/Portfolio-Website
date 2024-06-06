@@ -1,8 +1,9 @@
-/*body {
-    color: rgb(100, 61, 136); //comment this when uncomment
-    font-family: "Montserrat", sans-serif;
-    margin: 0;
-}*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+html {
+    font-family: 'Poppins', sans-serif;
+}
 
 /* Title  */ /*check if this is needed*/
 /*#title {
@@ -18,7 +19,7 @@
 
 nav a {
     transition: transform 0.2s, background-color 0.2s, color 0.2s;
-  }
+    }
   
   nav a:hover {
     color: #6e35a2; /* Purple color on hover */
@@ -42,7 +43,6 @@ nav a {
 
 
   /* footer bar stuff*/
-
   #footer svg {
     transition: transform 0.2s, color 0.2s;
   }
@@ -53,8 +53,7 @@ nav a {
   }
 
 
-
-
+/* footer styling */
 #footer {
     color: rgb(100, 61, 136);
     /*color: rgb(241, 210, 244);*/
@@ -75,10 +74,29 @@ nav a {
     padding: 8px;
 }
 
+
+#ab-header {
+    color: rgb(100, 61, 136);
+    /*color: rgb(241, 210, 244);*/
+    font-size: 20px !important;
+    text-align: center;
+    padding: 8px;
+    background-color: #643d88;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+
+
+
 /*doesn't work I think*/
 #about-me {
     text-wrap: pretty;
 }
+
+
 
 
     /* display: block;
@@ -93,17 +111,7 @@ nav a {
 
 
   /*
-.portfolio-image {
-    opacity: 0;
-    border: 5px solid #eeeeee;
-    position: absolute;
-    overflow: hidden;
-    right: 7%;
-    top: 10%;
-    width: 60%;
-    animation: fadeIn 3s ease forwards;
-    animation-delay: 3.5s;
-}
+
 
 .heading-intro {
     font-size: 1.5rem;
